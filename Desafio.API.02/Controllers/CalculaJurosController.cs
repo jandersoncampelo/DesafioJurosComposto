@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Desafio.API._02.Controllers
 {
-    [Route("api/calculaJuros")]
+    [Route("api/v1/calculaJuros")]
     [ApiController]
     public class CalculaJurosController : ControllerBase
     {

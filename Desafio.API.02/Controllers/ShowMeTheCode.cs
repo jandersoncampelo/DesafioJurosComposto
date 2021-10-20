@@ -7,15 +7,14 @@ using System.Threading.Tasks;
 
 namespace Desafio.API._02.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("/api/v1/showmethecode")]
     [ApiController]
     public class ShowMeTheCode : ControllerBase
     {
         [HttpGet]
-        [Route("/api/v1/showmethecode")]
         public ActionResult Get()
         {
-            return Ok("");
+            return Ok("https://github.com/jandersoncampelo/DesafioJurosComposto");
         }
     }
 }

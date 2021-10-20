@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace Desafio.API._01.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("/api/v1/taxaJuros")]
     [ApiController]
     public class TaxaJurosController : ControllerBase
     {
         [HttpGet]
-        [Route("/api/v1/taxaJuros")]
         public ActionResult Get()
         {
             return Ok("0,01");
